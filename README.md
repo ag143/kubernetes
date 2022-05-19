@@ -7,6 +7,14 @@
 >kubectl delete all --all -n "namespace"
 
 >expose any deployment as external service
+
+
+working examples
+
+- kubectl create -f https://k8s.io/examples/application/deployment.yaml
+- > https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
+- 
+
 >
 > https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 > 
@@ -72,7 +80,7 @@
 > 
 > https://nimbella.com/blog/kubernetes-in-simple-words-explained-by-eric-swildens
 > 
-> https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
+
 > 
 > https://www.endpointdev.com/blog/2022/01/kubernetes-101/
 > 
