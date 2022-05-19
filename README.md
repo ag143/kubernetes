@@ -1,6 +1,9 @@
 # kubernetes
 
 > helm install my-release bitnami/jenkins
+
+>delete all services in default namespace
+>kubectl delete all --all -n "namespace"
 > 
 > https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 > 
