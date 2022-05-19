@@ -3,8 +3,11 @@
 > helm install my-release bitnami/jenkins
 
 >delete all services in default namespace
+>
 >kubectl delete all --all -n "namespace"
-> 
+
+>expose any deployment as external service
+>
 > https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 > 
 > https://www.magalix.com/blog/deploying-an-application-on-kubernetes-from-a-to-z
