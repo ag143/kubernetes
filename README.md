@@ -7,6 +7,7 @@
 >kubectl delete all --all -n "namespace"
 
 >expose any deployment as external service
+>- kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
 
 
 working examples
