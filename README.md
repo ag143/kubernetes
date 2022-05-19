@@ -13,8 +13,11 @@ working examples
 
 - kubectl create -f https://k8s.io/examples/application/deployment.yaml
 - > https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
+- https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
 - 
 
+
+yet to check
 >
 > https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 > 
@@ -71,8 +74,6 @@ working examples
 > https://www.containiq.com/post/kubernetes-projects-for-beginners
 > 
 > https://polarsquad.com/blog/check-your-kubernetes-deployments
-> 
-> https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
 > 
 > https://matthewpalmer.net/kubernetes-app-developer/articles/service-kubernetes-example-tutorial.html
 > 
