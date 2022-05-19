@@ -12,8 +12,6 @@
 > 
 > https://docs.fastly.com/signalsciences/install-guides/kubernetes/example-helloworld/
 > 
-> https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
-> 
 > https://www.endpointdev.com/blog/2022/01/kubernetes-101/
 > 
 > https://betterprogramming.pub/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632https://www.containiq.com/post/kubernetes-projects-for-beginners
