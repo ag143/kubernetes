@@ -15,6 +15,7 @@ working examples
 - kubectl create -f https://k8s.io/examples/application/deployment.yaml
 - > https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
 - https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
+- https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 - 
 
 
