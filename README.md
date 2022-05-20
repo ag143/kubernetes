@@ -19,7 +19,7 @@ working examples
 - 
 
 
-yet to check
+yet to check-->
 >
 > https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 > 
