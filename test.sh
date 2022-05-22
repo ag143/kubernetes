@@ -3,7 +3,7 @@ apiVersion: v1
 clusters:
 - cluster:
     certificate-authority-data:
-    server: ${{ secrets.server }}
+    server: ${{ server }}
   name: cloud_okteto_com
 contexts:
 - context:
