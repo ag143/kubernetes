@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a multi-line script
         env:
-          server: ${{ secrets.server }}
+          server1: ${{ secrets.server }}
           Greeting: Hello
         run: |
           echo "$Greeting my name"
