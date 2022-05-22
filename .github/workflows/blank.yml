@@ -17,6 +17,10 @@ jobs:
           echo "$Greeting my name"
           chmod +x test.sh
           echo "server value: $super_secret"
+          if [$super_secert == "server"]
+          then
+             echo "successful comparison"
+          fi
           sh test.sh
           pwd
           ls
