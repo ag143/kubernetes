@@ -2,20 +2,20 @@ cat > config <<EOF
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority-data: ${{CERTIFICATE_AUTHORITY_DATA}}
-    server: ${{server}}
+    certificate-authority-data: ${{secrets.CERTIFICATE_AUTHORITY_DATA}}
+    server: ${{secrets.server}}
   name: cloud_okteto_com
 contexts:
 - context:
     cluster: cloud_okteto_com
-    namespace: ${{namespace}}
-    user: ${{USER_OR_NAME}}
+    namespace: ${{secrets.namespace}}
+    user: ${{secrets.USER_OR_NAME}}
   name: cloud_okteto_com
 current-context: cloud_okteto_com
 kind: Config
 preferences: {}
 users:
-- name: ${{USER_OR_NAME}}
+- name: ${{secrets.USER_OR_NAME}}
   user:
-    token: ${{USER_TOKEN}}
+    token: ${{secrets.USER_TOKEN}}
 EOF
