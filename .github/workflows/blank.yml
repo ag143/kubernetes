@@ -15,6 +15,8 @@ jobs:
           chmod +x Generate_kubeconfig.sh
           chmod +x Generate_kubeconfig.sh
           sh Generate_kubeconfig.sh
+          pwd
+          ls
       - name: Trigger deploy
         uses: Consensys/kubernetes-action@master
         env:
