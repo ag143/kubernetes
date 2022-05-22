@@ -11,8 +11,8 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
         run: |
-          echo "testing secrets $SUPER_SECRET"
-          if [["$SUPER_SECRET" == "server" ]];
+          echo "testing secrets $SUPERSECRET"
+          if [["$SUPERSECRET" == "supersecret" ]];
           then
              echo "successful comparison"
           else
