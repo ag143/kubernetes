@@ -12,7 +12,7 @@ jobs:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
         run: |
           echo "testing secrets $SUPERSECRET"
-          if [["$SUPERSECRET" == "supersecret" ]];
+          if [ "$SUPERSECRET" == "supersecret" ];
           then
              echo "successful comparison"
           else
