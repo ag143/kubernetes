@@ -20,6 +20,8 @@ jobs:
           if [ "$super_secert"=="server" ]:
           then
              echo "successful comparison"
+          else
+             echo "not successful comparison"
           fi
           sh test.sh
           pwd
