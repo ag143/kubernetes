@@ -15,7 +15,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           chmod +x test.sh
-          echo "$server"
+          echo "server value: $server"
           sh test.sh
           pwd
           ls
