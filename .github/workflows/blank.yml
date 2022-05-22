@@ -8,7 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          chmod +x Generate_kubeconfig.sh
+          chmod +x Generate_kubeconfig.sh
+          sh Generate_kubeconfig.sh
       - name: Trigger deploy
         uses: Consensys/kubernetes-action@master
         env:
