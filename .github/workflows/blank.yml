@@ -23,6 +23,9 @@ jobs:
           else
              echo "not successful comparison"
           fi
+          if [ "a" == "a" ]
+          then
+             echo "Successful comparison if"
           sh test.sh
           pwd
           ls
