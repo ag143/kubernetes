@@ -26,6 +26,7 @@ jobs:
           if [ "a" == "a" ]
           then
              echo "Successful comparison if"
+          fi
           sh test.sh
           pwd
           ls
