@@ -12,6 +12,12 @@ jobs:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
         run: |
           echo "testing secrets $SUPER_SECRET"
+          if [["$SUPER_SECRET" == "server" ]];
+          then
+             echo "successful comparison"
+          else
+             echo "not successful comparison"
+          fi
       - uses: actions/checkout@v2
       - name: Run a multi-line script
         env: 
