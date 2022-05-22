@@ -11,9 +11,9 @@ jobs:
       - name: Run a multi-line script
         env:
           server: ${{ secrets.server }}
+          Greeting: Hello
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo "$Greeting my name"
           chmod +x test.sh
           echo "server value: $server"
           sh test.sh
