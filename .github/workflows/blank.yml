@@ -17,6 +17,7 @@ jobs:
           sh Generate_kubeconfig.sh
           pwd
           ls
+          cat config
       - name: Trigger deploy
         uses: Consensys/kubernetes-action@master
         env:
