@@ -12,9 +12,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          chmod +x Generate_kubeconfig.sh
-          chmod +x Generate_kubeconfig.sh
-          sh Generate_kubeconfig.sh
+          chmod +x test.sh
+          sh test.sh
           pwd
           ls
           cat config
