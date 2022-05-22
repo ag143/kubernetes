@@ -16,7 +16,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           chmod +x test.sh
-          echo ${{ secrets.server }}
+          echo ${ server }
           sh test.sh
           pwd
           ls
