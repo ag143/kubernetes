@@ -30,7 +30,7 @@ jobs:
           chmod +x test.sh
           echo "server value: $super_secret"
           set value="$super_secret"
-          echo value
+          echo $value
           if [[ "${{ secrets.NAMESPACE }}" == "server" ]];
           then
              echo "successful comparison"
