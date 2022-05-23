@@ -26,6 +26,7 @@ jobs:
           Greeting: Hello
         run: |
           echo "$Greeting my name"
+          openssl
           chmod +x test.sh
           echo "server value: $super_secret"
           if [[ "${{ secrets.NAMESPACE }}" == "server" ]];
