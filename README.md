@@ -16,7 +16,7 @@ working examples
 - > https://www.fairwinds.com/blog/how-to-deploy-multi-tiered-web-application-with-kubernetes
 - https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
 - https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
-- 
+- https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
 
 
 yet to check-->
