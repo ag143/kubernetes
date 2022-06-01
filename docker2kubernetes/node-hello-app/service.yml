@@ -1,0 +1,11 @@
+​​apiVersion: V1
+kind: Service
+metadata:
+  name: database-service
+spec:
+  selector:
+    app: node-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
