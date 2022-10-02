@@ -19,7 +19,7 @@ working examples
 - https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
 - https://learnk8s.io/kubernetes-for-developers
 - [https://medium.com/kubernetes-tutorials/](https://medium.com/kubernetes-tutorials/creating-liveness-probes-for-your-node-js-application-in-kubernetes-285fd6d22497)
-
+- https://www.endpointdev.com/blog/2022/01/kubernetes-101/ (in progress)
 
 yet to check-->
 >
@@ -32,8 +32,6 @@ yet to check-->
 > https://github.com/kubernetes/examples
 > 
 > https://docs.fastly.com/signalsciences/install-guides/kubernetes/example-helloworld/
-> 
-> https://www.endpointdev.com/blog/2022/01/kubernetes-101/
 > 
 > https://betterprogramming.pub/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632https://www.containiq.com/post/kubernetes-projects-for-beginners
 > 
