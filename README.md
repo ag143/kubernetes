@@ -18,7 +18,7 @@ working examples
 - https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 - https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
 - https://learnk8s.io/kubernetes-for-developers
-- https://medium.com/kubernetes-tutorials/
+- [https://medium.com/kubernetes-tutorials/](https://medium.com/kubernetes-tutorials/creating-liveness-probes-for-your-node-js-application-in-kubernetes-285fd6d22497)
 
 
 yet to check-->
