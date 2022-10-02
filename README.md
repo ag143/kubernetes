@@ -18,6 +18,7 @@ working examples
 - https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 - https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
 - https://learnk8s.io/kubernetes-for-developers
+- https://medium.com/kubernetes-tutorials/
 
 
 yet to check-->
