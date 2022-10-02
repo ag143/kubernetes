@@ -19,7 +19,11 @@ working examples
 - https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
 - https://learnk8s.io/kubernetes-for-developers
 - [https://medium.com/kubernetes-tutorials/](https://medium.com/kubernetes-tutorials/creating-liveness-probes-for-your-node-js-application-in-kubernetes-285fd6d22497)
+
+* Inprogress
 - https://www.endpointdev.com/blog/2022/01/kubernetes-101/ (in progress)
+- https://www.densify.com/kubernetes-autoscaling/kubernetes-service-load-balancer
+- http://pwittrock.github.io/docs/tutorials/stateless-application/guestbook/#step-one-start-up-the-redis-master
 
 yet to check-->
 >
