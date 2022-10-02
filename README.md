@@ -17,6 +17,7 @@ working examples
 - https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
 - https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 - https://www.okteto.com/blog/how-to-develop-python-apps-in-kubernetes/
+- https://learnk8s.io/kubernetes-for-developers
 
 
 yet to check-->
